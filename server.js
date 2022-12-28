@@ -8,8 +8,7 @@ const userRoutes = require("./routes/user");
 const postRoutes = require('./routes/post');
 const billRoutes = require('./routes/bill');
 const tourRoutes = require("./routes/tour")
-const swaggerUI = require('swagger-ui-express');
-const swaggerJSDOC = require('swagger-jsdoc')
+
 
 
 dotenv.config();
