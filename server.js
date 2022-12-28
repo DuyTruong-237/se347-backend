@@ -40,8 +40,7 @@ const options = {
     apis: ['./routes/*.js']
 }
 
-const swaggerSpec = swaggerJSDOC(options)
-app.use('/api-doc', swaggerUI.serve, swaggerUI.setup(swaggerSpec))
+
 
 //routes
 app.use("/v1/auth",authRoutes);
